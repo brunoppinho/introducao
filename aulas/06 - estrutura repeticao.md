@@ -7,9 +7,9 @@ ser infinitas, determinadas ou indeterminadas.
 
 Utilizado normalmente em um contexto aonde não se tem um número determinado de iterações
 
-[Exemplo: While Determinado](/src/br/com/letscode/introducao/repeticao/exemplos/WhileDeterminado.java)
+[Exemplo: While Determinado](/src/br/com/letscode/introducao/base/repeticao/exemplos/WhileDeterminado.java)
 
-[Exemplo: While indeterminado](/src/br/com/letscode/introducao/repeticao/exemplos/WhileIndeterminado.java)
+[Exemplo: While indeterminado](/src/br/com/letscode/introducao/base/repeticao/exemplos/WhileIndeterminado.java)
 
 ## `for(var;condicao;incremento)`
 
@@ -21,11 +21,11 @@ Possui
 2. Expressão com retorno boolean
 3. Passo para controle do for — Altera a variável de controle
 
-[Exemplo](/src/br/com/letscode/introducao/repeticao/exemplos/For.java)
+[Exemplo](/src/br/com/letscode/introducao/base/repeticao/exemplos/For.java)
 
 É possível também colocar um for dentro do outro.
 
-[Exemplo](/src/br/com/letscode/introducao/repeticao/exemplos/DualFor.java)
+[Exemplo](/src/br/com/letscode/introducao/base/repeticao/exemplos/DualFor.java)
 
 ## `Do {} While(...)`
 
@@ -33,7 +33,7 @@ Executa um trecho de código e depois verifica se ele deve continuar executando 
 do `while` ele executa antes de começar a verificar a condição. Após o primeiro ciclo ele se comporta da mesma forma
 do `while`
 
-[Exemplo](/src/br/com/letscode/introducao/repeticao/exemplos/DoWhile.java)
+[Exemplo](/src/br/com/letscode/introducao/base/repeticao/exemplos/DoWhile.java)
 
 ## Exercício
 
@@ -46,13 +46,13 @@ digitadas
 
 Se for maior que 10, deve devolver uma mensagem avisando que a nota está inválida e não adicionar na soma.
 
-[Exercício](/src/br/com/letscode/introducao/repeticao/exercicios/Media.java)
+[Exercício](/src/br/com/letscode/introducao/base/repeticao/exercicios/Media.java)
 
 ## `break`
 
 Interrompe o laço de repetição.
 
-[Exemplo](/src/br/com/letscode/introducao/repeticao/exemplos/Break.java)
+[Exemplo](/src/br/com/letscode/introducao/base/repeticao/exemplos/Break.java)
 
 ## `continue`
 
@@ -60,7 +60,7 @@ Interrompe a iteração atual.
 
 Pode atuar em um loop mais externo caso esse esteja com um rótulo.
 
-[Exemplo](/src/br/com/letscode/introducao/repeticao/exemplos/Continue.java)
+[Exemplo](/src/br/com/letscode/introducao/base/repeticao/exemplos/Continue.java)
 
 ## foreach
 

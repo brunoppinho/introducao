@@ -8,7 +8,7 @@ Material utilizado no PowerPoint
 
 Criar primeiro projeto Criar uma classe
 
-[Exemplo: Hello World](/src/br/com/letscode/introducao/HelloWorld.java)
+[Exemplo: Hello World](/src/br/com/letscode/introducao/base/HelloWorld.java)
 
 ### Padrão de nomenclatura
 

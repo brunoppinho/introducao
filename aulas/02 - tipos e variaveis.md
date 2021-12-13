@@ -25,13 +25,13 @@ Material em PowerPoint
 * char (2bytes): '\u0000' a '\uffff'
 * boolean (1 bit): true or false
 
-[Exemplo](/src/br/com/letscode/introducao/tiposevariaveis/exemplos/ValoresPadraoPrimitivos.java)
+[Exemplo](/src/br/com/letscode/introducao/base/tiposevariaveis/exemplos/ValoresPadraoPrimitivos.java)
 
 #### Exercício
 
 Calcula a área de uma circunferência
 
-[Calculo da circunferência](/src/br/com/letscode/introducao/tiposevariaveis/exercicios/CalculoArea.java)
+[Calculo da circunferência](/src/br/com/letscode/introducao/base/tiposevariaveis/exercicios/CalculoArea.java)
 
 #### Exercício
 
@@ -41,7 +41,7 @@ Criar uma função que transforma o valor de uma temperatura em graus celsius em
 * fator1 = 9/5
 * fator2 = 32
 
-[Exercício](/src/br/com/letscode/introducao/tiposevariaveis/exercicios/CelsiusToFahrenheit.java)
+[Exercício](/src/br/com/letscode/introducao/base/tiposevariaveis/exercicios/CelsiusToFahrenheit.java)
 
 ## Por referência — Classes
 
@@ -52,7 +52,7 @@ Armazena a referência de um objeto na memória
 Escrever ao vivo conteúdo do ClasseString Comentar sobre o var Comentar sobre o format e o + Métodos da String Falar
 sobre String se imutável Delimitada por ""
 
-[Exemplo](/src/br/com/letscode/introducao/tiposevariaveis/exemplos/ClasseString.java)
+[Exemplo](/src/br/com/letscode/introducao/base/tiposevariaveis/exemplos/ClasseString.java)
 
 ### Wrappers
 
@@ -60,11 +60,11 @@ Transformam os tipos primitivos em classes adicionando funcionalidades a elas, a
 
 Padrão de projeto decorator — Envolve a adiciona funcionalidade
 
-[Exemplo](/src/br/com/letscode/introducao/tiposevariaveis/exemplos/Wrappers.java)
+[Exemplo](/src/br/com/letscode/introducao/base/tiposevariaveis/exemplos/Wrappers.java)
 
 #### Autoboxing e Unboxing
 
-[Exemplo](/src/br/com/letscode/introducao/tiposevariaveis/exemplos/Unboxing.java)
+[Exemplo](/src/br/com/letscode/introducao/base/tiposevariaveis/exemplos/Unboxing.java)
 
 ##### Autoboxing
 
@@ -87,7 +87,7 @@ Classe especial para representar enumeração de valores.
 
 Fixas e imutáveis.
 
-[Exemplo](/src/br/com/letscode/introducao/tiposevariaveis/exemplos/ExemploEnum.java)
+[Exemplo](/src/br/com/letscode/introducao/base/tiposevariaveis/exemplos/ExemploEnum.java)
 
 ### Demais classes
 

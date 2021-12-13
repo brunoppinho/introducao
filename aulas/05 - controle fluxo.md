@@ -18,7 +18,7 @@ Se a condição for verdadeira ele executa o código do laço
 * Se a condição for verdadeira ele executa o código do if.
 * Caso contrário executa o código dentro do else
 
-[Exemplo](/src/br/com/letscode/introducao/fluxo/exemplos/CondicionalIf.java)
+[Exemplo](/src/br/com/letscode/introducao/base/fluxo/exemplos/CondicionalIf.java)
 
 ## Exercício:
 
@@ -32,7 +32,7 @@ No caso de qualquer outra quantidade. Deve apresentar uma mensagem de erro falan
 
 # switch
 
-[Exemplo](/src/br/com/letscode/introducao/fluxo/exemplos/CondicionalSwitch.java)
+[Exemplo](/src/br/com/letscode/introducao/base/fluxo/exemplos/CondicionalSwitch.java)
 
 O `break` força a saída do condicional do `switch`. O que acontece se remover os breaks no exemplo anterior?
 
@@ -76,5 +76,5 @@ case labels.
 Realizar uma operação matemática, que deve ser passada via System.in ( opções: + - / * ) entre dois números que também
 devem ser solicitados via System.in
 
-[Exercício](/src/br/com/letscode/introducao/fluxo/exercicios/Calculadora.java)
+[Exercício](/src/br/com/letscode/introducao/base/fluxo/exercicios/Calculadora.java)
 
