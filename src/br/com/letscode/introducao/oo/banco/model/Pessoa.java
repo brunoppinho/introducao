@@ -6,6 +6,17 @@ public class Pessoa {
     private String sobreNome;
     private int idade;
 
+    public Pessoa(String nome, String sobreNome, int idade) {
+        this.nome = nome;
+        this.sobreNome = sobreNome;
+        setIdade(idade);
+    }
+
+    public Pessoa(String nome, String sobreNome) {
+        this.nome = nome;
+        this.sobreNome = sobreNome;
+    }
+
     @Override
     public String toString() {
         return "Pessoa{" +
@@ -13,12 +24,6 @@ public class Pessoa {
                 ", sobreNome='" + sobreNome + '\'' +
                 ", idade=" + idade +
                 '}';
-    }
-
-    public Pessoa(String nome, String sobreNome, int idade) {
-        this.nome = nome;
-        this.sobreNome = sobreNome;
-        setIdade(idade);
     }
 
     public String getNome() {
@@ -44,6 +49,8 @@ public class Pessoa {
     public void setIdade(int idade) {
         if (idade < 0) {
             System.err.println("Idade não pode ser negativa.");
+        } else if (idade > 150) {
+            System.err.println("Idade não pode ser maior que 150.");
         } else {
             this.idade = idade;
         }

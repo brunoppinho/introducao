@@ -58,3 +58,9 @@ São as variáveis e constantes armazenadas no objeto.
 No caso de um atributo com o modificador `static` ele será compartilhado por todos os objetos da classe, sendo assim se
 um deles alterar seu valor ele será alterado para todos. O acesso a esse atributo pode acontecer por meio da definição
 da classe ao invés de utilizar o objeto instanciado.
+
+# Exercícios
+
+Criar dois métodos, um para saque e outro de depósito, aonde o saque vai subtrair o valor do saldo e devolver o valor do
+saldo resultante. O método de depósito vai adicionar valor ao saldo e devolver o valor resultante. Imprimam alguma frase
+indicando que o saque e o depósito foram feitos.
