@@ -1,6 +1,7 @@
 package br.com.letscode.introducao.oo.banco;
 
 import br.com.letscode.introducao.oo.banco.model.Cliente;
+import br.com.letscode.introducao.oo.banco.model.Empresa;
 import br.com.letscode.introducao.oo.banco.model.Gerente;
 import br.com.letscode.introducao.oo.banco.model.Pessoa;
 import br.com.letscode.introducao.oo.banco.model.TipoConta;
@@ -12,17 +13,23 @@ public class Aplicacao {
     public static void main(String[] args) {
 
         Gerente gerente = new Gerente("Tio", "Patinhas", 70);
-        Pessoa potencialCliente = new Pessoa("Bruno", "Pinho", 18);
-        Cliente clientePessoa = gerente.abrirConta(potencialCliente);
+        Pessoa potencialClientePessoa = new Pessoa("Bruno", "Pinho", 18);
+        Empresa potencialClienteEmpresa = new Empresa("Tabajara", "1231231123123123");
 
-        clientePessoa.getConta().setTipo(TipoConta.CC);
-        clientePessoa.getConta().saque(BigDecimal.TEN);
-        clientePessoa.getConta().deposito(BigDecimal.TEN);
-        clientePessoa.getConta().saque(BigDecimal.ONE);
-        System.out.println(clientePessoa.getConta());
+        Cliente clientePessoa = gerente.abrirConta(potencialClientePessoa);
+        Cliente clienteEmpresa = gerente.abrirConta(potencialClienteEmpresa);
 
-        System.out.println(clientePessoa);
+        efetuaOperacoes(clientePessoa);
+        efetuaOperacoes(clienteEmpresa);
 
+    }
 
+    private static void efetuaOperacoes(Cliente cliente) {
+        cliente.getConta().setTipo(TipoConta.CC);
+        cliente.getConta().saque(BigDecimal.TEN);
+        cliente.getConta().deposito(BigDecimal.TEN);
+        cliente.getConta().saque(BigDecimal.ONE);
+        System.out.println(cliente.getConta());
+        System.out.println(cliente);
     }
 }

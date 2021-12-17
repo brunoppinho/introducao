@@ -1,5 +1,7 @@
 package br.com.letscode.introducao.oo.banco.model;
 
+import br.com.letscode.introducao.oo.banco.excecoes.IdadeInvalidaException;
+
 public class Pessoa {
 
     private String nome;
@@ -48,9 +50,9 @@ public class Pessoa {
 
     public void setIdade(int idade) {
         if (idade < 0) {
-            System.err.println("Idade não pode ser negativa.");
+            throw new IdadeInvalidaException("Idade não pode ser negativa.");
         } else if (idade > 150) {
-            System.err.println("Idade não pode ser maior que 150.");
+            throw new IdadeInvalidaException("Idade não pode ser maior que 150.");
         } else {
             this.idade = idade;
         }
