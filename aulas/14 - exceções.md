@@ -39,7 +39,7 @@ Há algumas duas formas de lidar com uma exceção.
 * Tratar
 * Reenviar
 
-[Exemplo](/src/br/com/letscode/introducao/base/exceptions/exemplos/ExemploExcessao.java)
+[Exemplo](/src/br/com/letscode/introducao/base/exceptions/exemplos/ExemploExcecao.java)
 
 ### Tratamento
 

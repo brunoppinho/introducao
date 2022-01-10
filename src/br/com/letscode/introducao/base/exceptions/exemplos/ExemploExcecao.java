@@ -5,7 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class ExemploExcessao {
+public class ExemploExcecao {
 
     public static void main(String[] args) throws IOException {
         FileInputStream stream;
@@ -36,10 +36,9 @@ public class ExemploExcessao {
     }
 
     private static FileInputStream getFileInputStream() throws FileNotFoundException {
-        File file = new File("aulas/0X - Git.md");
+        File file = new File("aulas/0 - Git.md");
         FileInputStream stream = new FileInputStream(file);
         return stream;
     }
-
 
 }
