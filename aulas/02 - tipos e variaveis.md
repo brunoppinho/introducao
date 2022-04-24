@@ -1,12 +1,14 @@
 # Tipos
 
-Material em PowerPoint
+* Primitivos
+* Por Referência
 
 ## Primitivos
 
 * Armazenam apenas um valor.
 * Não podem ser *null*
 * Não possuem nenhuma característica, função associada
+* Podem possuir ponto flutuante ou fixo
 
 ### INTEIROS:
 
@@ -45,9 +47,15 @@ Criar uma função que transforma o valor de uma temperatura em graus celsius em
 
 ## Por referência — Classes
 
-Armazena a referência de um objeto na memória
+* Armazena a referência de um objeto na memória
+* Podem ser *null*
+* Podem armazenar valores e possuir características(funções)
 
 ### String
+
+* Sequência de caracteres
+* Delimitado por “ ( aspas duplas)
+* Imutável
 
 Escrever ao vivo conteúdo do ClasseString Comentar sobre o var Comentar sobre o format e o + Métodos da String Falar
 sobre String se imutável Delimitada por ""
@@ -59,6 +67,8 @@ sobre String se imutável Delimitada por ""
 Transformam os tipos primitivos em classes adicionando funcionalidades a elas, além de armazenar o valor primitivo
 
 Padrão de projeto decorator — Envolve a adiciona funcionalidade
+
+![img.png](imagens/img.png)
 
 [Exemplo](/src/br/com/letscode/introducao/base/tiposevariaveis/exemplos/Wrappers.java)
 
@@ -91,4 +101,6 @@ Fixas e imutáveis.
 
 ### Demais classes
 
-Assunto para quando formos falar de Classes e objetos
+Todas as classes do java
+
+Separamos String, Wrapers e Enum apenas para explicar suas peculiaridades
