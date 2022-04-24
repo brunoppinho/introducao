@@ -27,6 +27,12 @@ Instalar IDE.
 * InteliJ
     * Guia para instalação: https://confluence.jetbrains.com/pages/viewpage.action?pageId=54920165
     * Link para download: https://www.jetbrains.com/idea/download/#section=windows
+* Eclipse
+    * Link para download: https://www.eclipse.org/downloads/packages/release/2022-03/r/eclipse-ide-java-developers
+* Vs Code
+    * Link para download: https://code.visualstudio.com/
+* Sprint Tools
+  * Link para download: https://spring.io/tools
 
 ### Primeiro programa
 

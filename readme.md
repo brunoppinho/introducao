@@ -33,4 +33,3 @@ Lista dos tópicos a serem abordados
 ### Outros assuntos
 
 * [GIT](aulas/0X%20-%20Git.md)
-* [UML](aulas/0X%20-%20uml.md)
