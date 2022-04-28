@@ -7,6 +7,13 @@
         * identidade — Nome e sobrenomes únicos
         * propriedades — Características
         * métodos — Ações
+    * Encapsulamento
+      * Esconder as propriedades e alguns métodos - Caixa preta
+    * Herança
+      * Reuso de código
+      * Herança de caracteristicas
+    * Polimorfismo
+      * Reescrita de métodos herdados
 * [Fortemente tipada](https://pt.wikipedia.org/wiki/Linguagem_tipada) — Todas as variáveis possuem um tipo e ele não é
   alterado dinamicamente
 * Write once, run everywhere

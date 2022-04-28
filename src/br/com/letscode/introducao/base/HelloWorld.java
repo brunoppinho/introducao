@@ -1,7 +1,5 @@
 package br.com.letscode.introducao.base;
 
-import java.math.BigDecimal;
-
 /**
  * Primeira classe escrita em JAVA
  * Exemplo de JAVADOC

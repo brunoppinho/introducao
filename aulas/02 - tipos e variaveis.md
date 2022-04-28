@@ -29,7 +29,7 @@
 
 [Exemplo](/src/br/com/letscode/introducao/base/tiposevariaveis/exemplos/ValoresPadraoPrimitivos.java)
 
-#### Exercício
+#### Exemplo
 
 Calcula a área de uma circunferência
 
@@ -84,10 +84,6 @@ Colocar um primitivo em um wrapper
 
 Retirar o valor de um wrapper e transformar ele em um primitivo
 
-#### Exercício unboxing
-
-Double.parseDouble()
-
 ### Enum
 
 Todos os tipos enums implicitamente estendem a classe java.lang.Enum, sendo que o Java não suporta herança múltipla, não
@@ -104,3 +100,12 @@ Fixas e imutáveis.
 Todas as classes do java
 
 Separamos String, Wrapers e Enum apenas para explicar suas peculiaridades
+
+### Inferência de tipos
+
+Java é uma linguagem fortemente tipada, ou seja, é sempre necessário criar uma variável já com um tipo definido e esse
+tipo não pode ser modificado depois de criado. Uma mudança que aconteceu no Java 10 permite declarar uma variável com
+o "tipo" var, porém o tipo será definido ainda em tempo de compilação e a palavra var será substituida pelo tipo
+verdadeiro.
+
+[Exemplo](/src/br/com/letscode/introducao/base/tiposevariaveis/exemplos/Inferencia.java)
