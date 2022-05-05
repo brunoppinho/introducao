@@ -30,6 +30,8 @@ parâmetro via System.in. Se for 2, deve realizar a soma dos dois.
 
 No caso de qualquer outra quantidade. Deve apresentar uma mensagem de erro falando que a quantidade é inválida.
 
+[Exercício](/src/br/com/letscode/introducao/base/fluxo/exercicios/SomaSimples.java)
+
 # switch
 
 [Exemplo](/src/br/com/letscode/introducao/base/fluxo/exemplos/CondicionalSwitch.java)

@@ -11,5 +11,7 @@ public class MainArgs {
 
     public static void main(String[] args) {
         System.out.println("args = " + Arrays.deepToString(args));
+
+        // Integer.parseInt(args[0])
     }
 }

@@ -5,20 +5,23 @@ import java.util.Scanner;
 public class ScannerExample {
 
     public static void main(String[] args) {
-        int primeiro;
-        int segundo;
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Digite o primeiro número: ");
-        primeiro = input.nextInt();
+        int numero = 0;
+        String texto;
 
-        System.out.println("Digite o segundo número: ");
-        segundo = input.nextInt();
+        System.out.println("Digite o texto: ");
+//        texto = input.nextLine();
+        texto = input.next();
 
-        System.out.printf("O primeiro número foi %d e o segundo %d %n", primeiro, segundo);
-        System.out.printf("Resultado da soma %d", (primeiro + segundo));
+        System.out.println("Digite um número: ");
+        numero = input.nextInt();
 
+        System.out.println("Texto: " + texto + " Número: " + numero);
+
+        // Lembrar sempre de fechar o scanner
         input.close();
+
     }
 
 }
