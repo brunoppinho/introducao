@@ -14,6 +14,7 @@ import java.time.format.DateTimeFormatter;
 public class FormatDate {
 
     public static void main(String[] args) {
+        System.out.printf("%td/%<tb/%1$ty", LocalDateTime.now());
         System.out.printf("%1$td/%1$tb/%1$tC %1$tH:%1$tM:%1$tS\n", LocalDateTime.now());
 
         System.out.println(LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd/MMM/YY HH:mm:ss")));
