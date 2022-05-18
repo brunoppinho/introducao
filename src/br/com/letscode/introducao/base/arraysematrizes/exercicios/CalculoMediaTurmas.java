@@ -29,15 +29,24 @@ public class CalculoMediaTurmas {
             }
         }
 
-        int n = 0;
-        for (double[] turma : notas) {
-            mediaTurma = 0;
-            for (double nota : turma) {
-                mediaTurma += nota;
+        for (int i = 0; i < quantidadeTurmas; i++) {
+            mediaTurma =0;
+            for (int j = 0; j < quantidadeAlunos; j++) {
+                mediaTurma = mediaTurma + notas[i][j];
             }
-            System.out.println("Média da turma " + n++ + " " + (mediaTurma / quantidadeAlunos));
-            mediaTotal += mediaTurma;
+            System.out.println("Média da turma " + i + " " + (mediaTurma / quantidadeAlunos));
+            mediaTotal = mediaTurma + mediaTotal;
         }
+//
+//        int n = 0;
+//        for (double[] turma : notas) {
+//            mediaTurma = 0;
+//            for (double notaIndividual : turma) {
+//                mediaTurma += notaIndividual;
+//            }
+//            System.out.println("Média da turma " + n++ + " " + (mediaTurma / quantidadeAlunos));
+//            mediaTotal += mediaTurma;
+//        }
 
         System.out.printf("A media de notas dos alunos de todas as turmas é %f",
                 (mediaTotal / (quantidadeAlunos * quantidadeTurmas)));
