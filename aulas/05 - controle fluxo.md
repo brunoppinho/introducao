@@ -14,9 +14,11 @@ Se a condição for verdadeira ele executa o código do laço
 
 `if` `else`
 
-*
+* 
 * Se a condição for verdadeira ele executa o código do if.
 * Caso contrário executa o código dentro do else
+
+![img.png](imagens/ifelse.png)
 
 [Exemplo](/src/br/com/letscode/introducao/base/fluxo/exemplos/CondicionalIf.java)
 
