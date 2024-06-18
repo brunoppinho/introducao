@@ -21,13 +21,13 @@
     * Java Garbage Collection
 * Releases
     * Cada seis meses
-    * Lts: 8, 11, 17
+    * Lts: 11, 17, 21
 
 ## Hello World
 
 ### Configuração
 
-Instalar Java 11. Fonte: https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html
+Instalar Java 21. Fonte: https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html
 
 Instalar IDE.
 
@@ -35,7 +35,7 @@ Instalar IDE.
     * Guia para instalação: https://confluence.jetbrains.com/pages/viewpage.action?pageId=54920165
     * Link para download: https://www.jetbrains.com/idea/download/#section=windows
 * Eclipse
-    * Link para download: https://www.eclipse.org/downloads/packages/release/2022-03/r/eclipse-ide-java-developers
+    * Link para download: https://www.eclipse.org/downloads/packages/
 * Vs Code
     * Link para download: https://code.visualstudio.com/
 * Sprint Tools

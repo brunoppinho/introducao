@@ -54,6 +54,8 @@ Também aceita a partir do Java 8:
 
 ## Evolução
 
+https://softwaremill.com/java-21-switch-the-power-on/
+
 https://fullstackdeveloper.guru/2021/08/11/pattern-matching-for-switch-java-17/
 
 Java 12 introduced a flurry of new features:

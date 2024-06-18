@@ -104,7 +104,7 @@ Separamos String, Wrapers e Enum apenas para explicar suas peculiaridades
 ### Inferência de tipos
 
 Java é uma linguagem fortemente tipada, ou seja, é sempre necessário criar uma variável já com um tipo definido e esse
-tipo não pode ser modificado depois de criado. Uma mudança que aconteceu no Java 10 permite declarar uma variável com
+tipo não pode ser modificado após criado. Uma mudança que aconteceu no Java 10 permite declarar uma variável com
 o "tipo" var, porém o tipo será definido ainda em tempo de compilação e a palavra var será substituida pelo tipo
 verdadeiro.
 
