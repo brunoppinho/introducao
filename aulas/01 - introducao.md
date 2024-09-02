@@ -32,6 +32,7 @@ Instalar Java 21. Fonte: https://www.oracle.com/java/technologies/javase/jdk21-a
 Instalar IDE.
 
 * InteliJ
+* 
     * Link para download: https://www.jetbrains.com/idea/download/#section=windows
 * Eclipse
     * Link para download: https://www.eclipse.org/downloads/packages/
